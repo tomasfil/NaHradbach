@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Tento soubor je používán procesem publikování nebo balení webového projektu. Chování tohoto procesu můžete přizpůsobit
+úpravou tohoto souboru MSBuild. Další informace o tomto procesu najdete na webu https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhQnMNujlaky3FY58U/v5ggAAAAACAAAAAAAQZgAAAAEAACAAAAA+OyuKOusxfmzIuj7aEX27N9MhNuvNxkMZ/Qg+qCaWkQAAAAAOgAAAAAIAACAAAAC3kcRJ2SHca/1pHPZOqY4Q+vfAy/MLeOS7C1yn2MpocCAAAACXCIEPDSS3BMY2YohAPjDqo0JpL+pVGP3aql0q7e5RxkAAAABY6yYnPxmFo1iBpDnxrtbFXROVpE/8hweLcYgQBek2P+QAWm9hO22nqDyl35Na9y13cFaCWCQQFzmGOSLIDcHE</EncryptedPassword>
+    <_PublishTargetUrl>ftp://d159wh.forpsi.com/subdoms/nahradbach</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdminPage/AdminTools.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/AdminPage/AdminTools.aspx">
+      <publishTime>10/24/2017 19:55:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/24/2017 19:44:42</publishTime>
+    </File>
+    <File Include="bin/NaHradbachAplikace.dll">
+      <publishTime>12/19/2017 16:12:49</publishTime>
+    </File>
+    <File Include="bin/NaHradbachAplikace.dll.config">
+      <publishTime>11/25/2017 15:42:10</publishTime>
+    </File>
+    <File Include="bin/NaHradbachAplikace.pdb">
+      <publishTime>12/19/2017 16:12:49</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 05:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Web.config">
+      <publishTime>11/25/2017 16:07:09</publishTime>
+    </File>
+    <File Include="Contacts.aspx">
+      <publishTime>12/02/2017 12:27:30</publishTime>
+    </File>
+    <File Include="CSS/Contact.css">
+      <publishTime>11/05/2017 20:24:01</publishTime>
+    </File>
+    <File Include="Css/ContactsStyle.css">
+      <publishTime>08/06/2017 16:30:04</publishTime>
+    </File>
+    <File Include="CSS/DailyMenu.css">
+      <publishTime>11/05/2017 20:23:58</publishTime>
+    </File>
+    <File Include="CSS/DiningMenu.css">
+      <publishTime>11/05/2017 20:24:01</publishTime>
+    </File>
+    <File Include="CSS/Home.css">
+      <publishTime>12/10/2017 12:56:19</publishTime>
+    </File>
+    <File Include="Css/HomeStyle.css">
+      <publishTime>08/06/2017 16:30:09</publishTime>
+    </File>
+    <File Include="Css/LoginStyle.css">
+      <publishTime>08/06/2017 16:30:17</publishTime>
+    </File>
+    <File Include="CSS/Master.css">
+      <publishTime>12/22/2017 19:19:35</publishTime>
+    </File>
+    <File Include="Css/MasterPageStyle.css">
+      <publishTime>09/04/2017 18:45:59</publishTime>
+    </File>
+    <File Include="CSS/RESET.CSS">
+      <publishTime>12/22/2017 19:21:06</publishTime>
+    </File>
+    <File Include="DailyMenu.aspx">
+      <publishTime>12/19/2017 15:44:48</publishTime>
+    </File>
+    <File Include="DiningMenu.aspx">
+      <publishTime>12/10/2017 14:53:38</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>12/22/2017 19:58:24</publishTime>
+    </File>
+    <File Include="Images/8.jpg">
+      <publishTime>01/07/2017 14:18:16</publishTime>
+    </File>
+    <File Include="Images/BackGround.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Images/Background.png">
+      <publishTime>11/04/2017 22:14:30</publishTime>
+    </File>
+    <File Include="Images/Background2.png">
+      <publishTime>04/11/2017 22:14:30</publishTime>
+    </File>
+    <File Include="Images/BackgroundHome.jpg">
+      <publishTime>04/11/2017 16:38:58</publishTime>
+    </File>
+    <File Include="Images/Banner.jpg">
+      <publishTime>12/05/2017 18:09:18</publishTime>
+    </File>
+    <File Include="Images/Banner.png">
+      <publishTime>12/19/2017 16:25:26</publishTime>
+    </File>
+    <File Include="Images/BG1.JPG">
+      <publishTime>11/01/2017 18:51:20</publishTime>
+    </File>
+    <File Include="Images/BG1.png">
+      <publishTime>11/05/2017 14:47:32</publishTime>
+    </File>
+    <File Include="Images/BG2.png">
+      <publishTime>11/05/2017 14:47:32</publishTime>
+    </File>
+    <File Include="Images/BG3.png">
+      <publishTime>11/05/2017 14:47:32</publishTime>
+    </File>
+    <File Include="Images/BG4.png">
+      <publishTime>12/02/2017 12:25:11</publishTime>
+    </File>
+    <File Include="Images/Book.png">
+      <publishTime>06/25/2017 10:45:32</publishTime>
+    </File>
+    <File Include="Images/fb-art.png">
+      <publishTime>06/25/2017 14:54:06</publishTime>
+    </File>
+    <File Include="Images/Jidlo7.JPG">
+      <publishTime>11/01/2017 18:50:14</publishTime>
+    </File>
+    <File Include="Images/Jídlo1.jpg">
+      <publishTime>06/28/2017 04:18:56</publishTime>
+    </File>
+    <File Include="Images/Jídlo2.jpg">
+      <publishTime>12/10/2017 13:48:50</publishTime>
+    </File>
+    <File Include="Images/Jídlo3.jpg">
+      <publishTime>12/10/2017 13:51:06</publishTime>
+    </File>
+    <File Include="Images/Jídlo4.jpg">
+      <publishTime>12/10/2017 13:51:19</publishTime>
+    </File>
+    <File Include="Images/Jídlo5.jpg">
+      <publishTime>12/10/2017 13:51:36</publishTime>
+    </File>
+    <File Include="Images/Jídlo6.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Images/Menu.jpg">
+      <publishTime>05/12/2017 17:11:08</publishTime>
+    </File>
+    <File Include="Images/Menu.png">
+      <publishTime>12/05/2017 16:40:47</publishTime>
+    </File>
+    <File Include="Images/Restaurace.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>10/12/2017 18:10:07</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>12/22/2017 20:03:56</publishTime>
+    </File>
+    <File Include="NaHradbachApp.csproj">
+      <publishTime>07/28/2017 11:37:58</publishTime>
+    </File>
+    <File Include="NaHradbachApp.csproj.user">
+      <publishTime>07/28/2017 11:37:58</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/28/2017 11:34:48</publishTime>
+    </File>
+    <File Include="Properties/Menu.jpg">
+      <publishTime>12/05/2017 17:06:35</publishTime>
+    </File>
+    <File Include="Scripts/Slideshow.js">
+      <publishTime>05/07/2017 14:02:52</publishTime>
+    </File>
+    <File Include="Scripts/Slideshow2.js">
+      <publishTime>12/10/2017 13:20:17</publishTime>
+    </File>
+    <File Include="Scripts/Slideshow3.js">
+      <publishTime>12/10/2017 13:20:30</publishTime>
+    </File>
+    <File Include="Scripts/TopMenu.js">
+      <publishTime>06/07/2017 10:17:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/31/2017 18:56:45</publishTime>
+    </File>
+    <File Include="website.publishproj">
+      <publishTime>05/07/2017 20:36:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

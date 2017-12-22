@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="NaHradbachApp.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" href="CSS/RESET.css">
+    <link rel="stylesheet" href="CSS/Master.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <title>Na Hradbách</title>
+    <style>
+     
+
+    #Banner
+        {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+             background-image: url(../Images/Banner.png);
+           
+        }
+    .w3-Dance {
+            font-family: 'Merienda', cursive;
+        }
+
+    </style>
+</head>
+<body >
+
+    <form id="form1" runat="server">
+
+        <div  id="Banner">
+    
+        
+        </div>
+
+        <div class="w3-Dance" id="Menu">
+
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 25%;"> 
+                        <asp:Button ID="homeButton" CssClass="MenuButton" runat="server" Text="Domů" PostBackUrl="Home.aspx" />
+                    </td>
+                    <td style="width: 25%;">
+                        <asp:Button ID="dailyMenuButton" CssClass="MenuButton" runat="server" Text="Denní Nabídka" PostBackUrl="DailyMenu.aspx" />
+                    </td>
+                    <td style="width: 25%;">
+                        <asp:Button ID="diningMenuButton" CssClass="MenuButton" runat="server" Text="Jídelní Menu" PostBackUrl="DiningMenu.aspx" />
+                    </td>
+                    <td style="width: 25%;">
+                        <asp:Button ID="contactsButton" CssClass="MenuButton" runat="server" Text="Kontakt" PostBackUrl="Contacts.aspx" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="Scripts/TopMenu.js"></script>
+
+        <div id="Content" class="w3-Dance">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div id="footer" class="w3-Dance">
+            ©2017 Ristorante Pizzerie Na Hradbach
+               &nbsp
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/fb-art.png" Width="20" Height="20" OnClick="ImageButton1_Click" />&nbsp
+
+            <br />
+            <asp:LoginView ID="LoginView1" runat="server">
+                <LoggedInTemplate>
+                    Vítejte.
+                    <asp:LinkButton ID="AdminToolsLink" runat="server" PostBackUrl="~/AdminPage/AdminTools.aspx">Redakční rozhraní</asp:LinkButton>
+                </LoggedInTemplate>
+                <AnonymousTemplate>
+                    Pro správu se prosím&nbsp
+                </AnonymousTemplate>
+            </asp:LoginView>
+            <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutPageUrl="~/Home.aspx" OnLoggedOut="LoginStatus1_LoggedOut" LoginText="přihlašte." LogoutText="Odhlásit se" />
+            <br />
+            WebDesign: <a href="mailto:tomasfilip124@gmail.com">tomasfilip124@gmail.com</a>.
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
