@@ -64,3 +64,7 @@ C:\Users\Paulie\Desktop\HRADBY\NaHradbachAplikace\obj\Release\NaHradbachAplikace
 C:\Users\Paulie\Desktop\HRADBY\NaHradbachAplikace\obj\Release\NaHradbachAplikace.dll
 C:\Users\Paulie\Desktop\HRADBY\NaHradbachAplikace\obj\Release\NaHradbachAplikace.pdb
 C:\Users\Paulie\Desktop\HRADBY\NaHradbachAplikace\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tomas\Dropbox\Git\NaHradbach\NaHradbachAplikace\obj\Release\NaHradbachAplikace.csprojResolveAssemblyReference.cache
+C:\Users\tomas\Dropbox\Git\NaHradbach\NaHradbachAplikace\obj\Release\NaHradbachAplikace.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Dropbox\Git\NaHradbach\NaHradbachAplikace\obj\Release\NaHradbachAplikace.dll
+C:\Users\tomas\Dropbox\Git\NaHradbach\NaHradbachAplikace\obj\Release\NaHradbachAplikace.pdb
